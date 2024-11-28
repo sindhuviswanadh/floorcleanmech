@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Solar Robot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="settings-container">
+        <h1>Robot Settings</h1>
+        <ul class="nav-menu">
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="settings.html">Settings</a></li>
+            <li><a href="index.html">Logout</a></li>
+        </ul>
+        <form>
+            <div class="input-group">
+                <label for="speed">Cleaning Speed</label>
+                <select id="speed" name="speed">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label for="mode">Cleaning Mode</label>
+                <select id="mode" name="mode">
+                    <option value="manual">Manual</option>
+                    <option value="auto">Automatic</option>
+                </select>
+            </div>
+            <button type="submit">Save Settings</button>
+        </form>
+    </div>
+</body>
+</html>
